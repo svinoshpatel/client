@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>My website</title>
+		<link rel="stylesheet" href="style.css">
+		<script defer src="script.js"></script>
+	</head>
+	<body>
+		<h1>Створення web-проекту для вивчення HTML, CSS, JavaScript</h1>
+		<h2>Зміст</h2>
+		<ul>
+			<li><a href="#section1">Секція 1</a></li>
+			<li><a href="#section2">Секція 2</a></li>
+			<li><a href="#section3">Секція 3</a></li>
+			<li><a href="#section4">Секція 4</a></li>
+			<li><a href="#section5">Секція 5</a></li>
+			<li><a href="#section6">Секція 6</a></li>
+			<li><a href="#section7">Секція 7</a></li>
+			<li><a href="#section8">Секція 8</a></li>
+			<li><a href="#section9">Секція 9</a></li>
+			<li><a href="#section10">Секція 10</a></li>
+			<li><a href="#section11">Секція 11</a></li>
+			<li><a href="#section12">Секція 12</a></li>
+		</ul>
+		<section class="section">
+			<h2 id="section1">Секція 1 — Теги тексту</h2>
+			<p>
+				Теги h1, h2, h3 використовуються для заголовків різних рівнів і
+				створюють ієрархічну структуру документа. h1 — головний
+				заголовок сторінки (один на сторінку), h2 — заголовки основних
+				розділів, h3 — підрозділи всередині h2.<br>
+				Тег p використовується для абзаців тексту.<br>
+				Тег strong виділяє текст жирним шрифтом, em — курсивом.<br>
+				br ставить розрив тексту, тобто текст після нього переноситься
+				на новий рядок.
+			</p>
+			<pre class="code"><code>
+&lt;h1&gt;Заголовок документу&lt;/h1&gt;
+&lt;h2&gt;Розділ&lt;/h2&gt;
+&lt;h3&gt;Підрозділ&lt;/h3&gt;
+&lt;p&gt;Абзац тексту&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жирний абзац тексту&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Абзац тексту курсивом&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Розбитий&lt;br&gt; абзац тексту&lt;/p&gt;
+			</code></pre>
+			<div class="demo">
+				<h1>Заголовок документу</h1>
+				<h2>Розділ</h2>
+				<h3>Підрозділ</h3>
+				<p>Абзац тексту</p>
+				<p><strong>Жирний абзац тексту</strong></p>
+				<p><em>Абзац тексту курсивом</em></p>
+				<p>Розбитий<br> абзац тексту</p>
+			</div>
+		</section>
+
+		<section class="section">
+			<h2 id="section2">Секція 2 — Списки</h2>
+			<p>
+				Теги ul, ol використовуються для створення списків. ul —
+				невпорядкований список, ol — впорядкований список.<br>
+				Тег li відповідає за елемент списку.
+			</p>
+			<pre class="code"><code>
+&lt;ul&gt;
+	&lt;li&gt;елемент 1&lt;/li&gt;
+	&lt;li&gt;елемент 2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+	&lt;li&gt;елемент 1&lt;/li&gt;
+	&lt;li&gt;елемент 2&lt;/li&gt;
+&lt;/ol&gt;
+			</code></pre>
+			<div class="demo">
+				<ul>
+					<li>елемент 1</li>
+					<li>елемент 2</li>
+				</ul>
+				<ol>
+					<li>елемент 1</li>
+					<li>елемент 2</li>
+				</ol>
+			</div>
+		</section>
+
+		<section class="section">
+			<h2 id="section3">Секція 3 — Посилання та зображення</h2>
+			<p>
+				Тег a використовується для створення гіперпосилань. Атрибут href
+				вказує URL-адресу, куди веде посилання. Атрибут target="_blank"
+				відкриває посилання в новій вкладці.<br>
+				Тег img використовується для вставки зображень. Атрибут src
+				вказує шлях до зображення, а alt — альтернативний текст, який
+				відображається, якщо зображення не завантажилося.
+			</p>
+			<pre class="code"><code>
+&lt;a href="https://example.com"&gt;Звичайне посилання&lt;/a&gt;
+&lt;a href="https://example.com" target="_blank"&gt;Посилання в новій вкладці&lt;/a&gt;
+&lt;img src="image.jpg" alt="Опис зображення"&gt;
+			</code></pre>
+			<div class="demo">
+				<a href="https://example.com">Звичайне посилання</a><br>
+				<a href="https://example.com" target="_blank">Посилання в новій вкладці</a><br>
+				<img src="https://placehold.co/600x400" alt="Опис зображення">
+			</div>
+		</section>
+
+		<section class="section">
+			<h2 id="section4">Секція 4 — Таблиці</h2>
+			<p>
+				Тег table створює таблицю. Тег tr визначає рядок таблиці.<br>
+				Тег th використовується для заголовків стовпців (автоматично
+				виділяється жирним).<br>
+				Тег td використовується для звичайних комірок з даними.
+			</p>
+			<pre class="code"><code>
+&lt;table&gt;
+	&lt;tr&gt;
+		&lt;th&gt;Заголовок 1&lt;/th&gt;
+		&lt;th&gt;Заголовок 2&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Комірка 1&lt;/td&gt;
+		&lt;td&gt;Комірка 2&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Комірка 3&lt;/td&gt;
+		&lt;td&gt;Комірка 4&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+			</code></pre>
+			<div class="demo">
+				<table>
+					<tr>
+						<th>Заголовок 1</th>
+						<th>Заголовок 2</th>
+					</tr>
+					<tr>
+						<td>Комірка 1</td>
+						<td>Комірка 2</td>
+					</tr>
+					<tr>
+						<td>Комірка 3</td>
+						<td>Комірка 4</td>
+					</tr>
+				</table>
+			</div>
+		</section>
+
+		<section class="section">
+			<h2 id="section5">Секція 5 — Форми</h2>
+			<p>
+				Тег form створює форму для введення даних. Тег label описує поле
+				вводу (атрибут for має співпадати з id поля input).<br>
+				Тег input створює поле для введення. Атрибут type визначає тип
+				поля (text — текст, email — електронна пошта).<br>
+				Тег button створює кнопку для відправки форми.
+			</p>
+			<pre class="code"><code>
+&lt;form&gt;
+	&lt;label for="name"&gt;Ім'я:&lt;/label&gt;
+	&lt;input type="text" id="name"&gt;
+	
+	&lt;label for="email"&gt;Email:&lt;/label&gt;
+	&lt;input type="email" id="email"&gt;
+	
+	&lt;button&gt;Відправити&lt;/button&gt;
+&lt;/form&gt;
+			</code></pre>
+			<div class="demo">
+				<form>
+					<label for="name">Ім'я:</label>
+					<input type="text" id="name"><br><br>
+					
+					<label for="email">Email:</label>
+					<input type="email" id="email"><br><br>
+					
+					<button>Відправити</button>
+				</form>
+			</div>
+		</section>
+
+		
+		<section class="section-box-model">
+			<h2 id="section6">Секція 6 — Box Model</h2>
+			<p>
+				Box Model описує, як елементи займають простір на сторінці.
+				Кожен елемент складається з контенту, padding (внутрішній відступ),
+				border (рамка) та margin (зовнішній відступ).
+			</p>
+			<pre class="code"><code>
+.box-example {
+	margin: 20px;
+	padding: 15px;
+	border: 2px solid blue;
+}
+			</code></pre>
+			<div class="box-example">
+				Цей блок має margin 20px, padding 15px та синю рамку 2px
+			</div>
+		</section>
+		
+		<section class="section-typography">
+			<h2 id="section7">Секція 7 — Typography</h2>
+			<p>
+				Властивості типографії контролюють зовнішній вигляд тексту:
+				font-size (розмір шрифту), font-weight (товщина шрифту),
+				line-height (висота рядка).
+			</p>
+			<pre><code>
+.text-large {
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 1.5;
+}
+			</code></pre>
+			<p class="text-small">Малий текст (14px, звичайний, line-height 1.4)</p>
+			<p class="text-large">Великий текст (24px, жирний, line-height 1.5)</p>
+		</section>
+
+		
+		<section class="section-colors">
+			<h2 id="section8">Секція 8 — Colors & Background</h2>
+			<p>
+				Властивості color (колір тексту), background-color (колір фону)
+				та background-image (фонове зображення або градієнт) визначають
+				кольорову схему елементів.
+			</p>
+			<pre class="code"><code>
+.colored-box {
+	color: white;
+	background-color: #3498db;
+}
+
+.gradient-box {
+	background-image: linear-gradient(to right, #e74c3c, #f39c12);
+}
+			</code></pre>
+			<div class="colored-box">Блок з синім фоном та білим текстом</div>
+			<div class="gradient-box">Блок з градієнтом від червоного до оранжевого</div>
+		</section>
+			
+		<section class="section-layout">
+			<h2 id="section9">Секція 9 — Layout (Flex або Grid)</h2>
+			<p>
+				Flexbox та Grid — сучасні системи розміщення елементів.
+				Flexbox використовується для одновимірних макетів (рядок або стовпець),
+				Grid — для двовимірних (рядки і стовпці одночасно).
+			</p>
+			
+			<h3>Приклад Flexbox:</h3>
+			<pre class="code"><code>
+.flex-container {
+	display: flex;
+	gap: 10px;
+	justify-content: space-between;
+	align-items: center;
+}
+			</code></pre>
+			<div class="flex-container">
+				<div class="flex-item">Елемент 1</div>
+				<div class="flex-item">Елемент 2</div>
+				<div class="flex-item">Елемент 3</div>
+			</div>
+		</section>
+		
+		<section class="section-hover">
+			<h2 id="section10">Секція 10 — Псевдокласи та hover-ефект</h2>
+			<p>
+				Псевдокласи дозволяють стилізувати елементи в певних станах.
+				:hover спрацьовує при наведенні миші, :focus — при фокусі на елементі
+				(наприклад, клік на поле вводу).
+			</p>
+			<pre class="code"><code>
+.hover-button:hover {
+	background-color: #27ae60;
+	transform: scale(1.05);
+}
+
+.focus-input:focus {
+	border-color: #3498db;
+	outline: none;
+}
+			</code></pre>
+			<button class="hover-button">Наведи на мене</button>
+			<br><br>
+			<input type="text" class="focus-input" placeholder="Клікни сюди">
+		</section>
+		
+		<section class="section-dom">
+				<h2 id="section11">Секція 11 — Додавання контенту на сторінку (DOM)</h2>
+				<p>
+					JavaScript дозволяє динамічно додавати елементи на сторінку.
+					Використовуємо <code>document.createElement()</code> для створення
+					елемента, <code>textContent</code> для встановлення тексту, 
+					та <code>appendChild()</code> для додавання елемента в DOM.
+				</p>
+				<pre class="code"><code>
+// script.js
+const addButton = document.getElementById('add-text-btn');
+const container = document.getElementById('text-container');
+
+addButton.addEventListener('click', () => {
+	const newParagraph = document.createElement('p');
+	newParagraph.textContent = 'Новий абзац тексту';
+	container.appendChild(newParagraph);
+});
+				</code></pre>
+				<button id="add-text-btn">Додати текст</button>
+				<div id="text-container"></div>
+		</section>
+
+		<section class="section-events">
+			<h2 id="section12">Секція 12 — Подія та зміна стилю</h2>
+			<p>
+				JavaScript може змінювати CSS-стилі елементів через властивість
+				<code>style</code> або додавати/видаляти класи через <code>classList</code>.
+				Події (events) дозволяють реагувати на дії користувача.
+			</p>
+			
+			<h3>Показати/сховати пояснення</h3>
+			<pre class="code"><code>
+// script.js
+const explanationToggle = document.getElementById('explanation-toggle');
+const explanationText = document.getElementById('explanation-text');
+
+explanationToggle.addEventListener('click', () => {
+	if (explanationText.style.display === 'none') {
+		explanationText.style.display = 'block';
+		explanationToggle.textContent = 'Сховати пояснення';
+	} else {
+		explanationText.style.display = 'none';
+		explanationToggle.textContent = 'Показати пояснення';
+	}
+});
+			</code></pre>
+			<button id="explanation-toggle">Показати пояснення</button>
+			<div id="explanation-text" style="display: none;">
+				<p>
+					Ця функція перемикає видимість елемента, змінюючи властивість
+					<code>display</code> між <code>none</code> та <code>block</code>.
+				</p>
+			</div>
+		</section>
+	</body>
+</html>

@@ -1,0 +1,44 @@
+.box-example {
+	margin: 20px;
+	padding: 15px;
+	border: 2px solid blue;
+}
+.text-large {
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 1.5;
+}
+.colored-box {
+	color: white;
+	background-color: #3498db;
+}
+.gradient-box {
+	background-image: linear-gradient(to right, #e74c3c, #f39c12);
+}
+.flex-container {
+	display: flex;
+	gap: 10px;
+	justify-content: space-between;
+	align-items: center;
+}
+.hover-button:hover {
+	background-color: #27ae60;
+	transform: scale(1.05);
+}
+.focus-input:focus {
+	border-color: #3498db;
+	outline: none;
+}
+#section1 {
+	color: gray;
+}
+.demo {
+	background-color: gray;
+}
+.section {
+	padding-left: 5px;
+}
+.code {
+	background-color: black;
+	color: white;
+}
