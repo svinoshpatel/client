@@ -11,7 +11,7 @@
 			in {
 				devShells.default = pkgs.mkShell {
 					buildInputs = [
-						pkgs.nodejs_20
+						pkgs.nodejs_22
 					];
 					shellHook = ''
 						exec fish
