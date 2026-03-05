@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Rosie the Mini Pig",
+    "category": "Mini Pigs",
+    "price": 349.99,
+    "image": "https://images.unsplash.com/photo-1567201080580-bfcc97dae346?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "A charming teacup mini pig with a rosy snout. Perfect family companion.",
+    "details": "Rosie is a healthy, vaccinated 8-week-old mini pig. She loves belly rubs, fruit treats, and exploring the yard. Weight at maturity: ~25 lbs. Comes with starter feed and care guide.",
+    "badge": "Popular"
+  },
+  {
+    "id": 2,
+    "name": "Sir Oinksalot",
+    "category": "Mini Pigs",
+    "price": 289.99,
+    "image": "https://images.unsplash.com/photo-1670974545850-7619a012dea5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "A distinguished mini pig gentleman with a noble demeanor and curious eyes.",
+    "details": "Sir Oinksalot is 10 weeks old, litter-trained, and socialized with children and other pets. Weight at maturity: ~30 lbs. Includes harness and leash for outdoor walks.",
+    "badge": "New"
+  },
+  {
+    "id": 3,
+    "name": "Hamlet the Heritage Pig",
+    "category": "Farm Pigs",
+    "price": 179.99,
+    "image": "https://images.unsplash.com/photo-1583205188670-ce90796eb01c?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Classic heritage breed farm pig. Robust, friendly, and great for small farms.",
+    "details": "Hamlet is a Berkshire heritage breed, 12 weeks old. Excellent forager and pasture pig. Great temperament for small-scale homesteaders. Weight at maturity: ~250 lbs.",
+    "badge": null
+  },
+  {
+    "id": 4,
+    "name": "Peppa the Spotted Pig",
+    "category": "Farm Pigs",
+    "price": 199.99,
+    "image": "https://images.unsplash.com/photo-1697027940563-656a71f90a2d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Adorable spotted Gloucestershire Old Spot piglet. A living piece of farm history.",
+    "details": "Peppa is a purebred Gloucestershire Old Spot, a rare heritage breed with distinctive black spots. 14 weeks old, weaned, and ready for farm life. Comes with pedigree certificate.",
+    "badge": "Rare"
+  },
+  {
+    "id": 5,
+    "name": "Truffle the Truffle Hunter",
+    "category": "Mini Pigs",
+    "price": 429.99,
+    "image": "https://images.unsplash.com/photo-1681153573656-dde97fa28d71?q=80&w=2232&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "A specially trained mini pig with an exceptional nose for truffles and treats.",
+    "details": "Truffle has been gently scent-trained from birth. She responds to basic commands, walks on a leash, and is exceptionally food-motivated — perfect for truffle hunting as a hobby. Weight at maturity: ~22 lbs.",
+    "badge": "Premium"
+  },
+  {
+    "id": 6,
+    "name": "Wilbur the Woolly Pig",
+    "category": "Farm Pigs",
+    "price": 239.99,
+    "image": "https://images.unsplash.com/photo-1596614290921-10c02a59aeb1?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "A Mangalica 'woolly' pig with a unique curly coat. The pig world's rarest beauty.",
+    "details": "Wilbur is a purebred Mangalica, the only pig breed with a woolly fleece-like coat. This 16-week-old boar is tame, vaccinated, and dewormed. Weight at maturity: ~180 lbs. Includes registration papers.",
+    "badge": "Rare"
+  },
+  {
+    "id": 7,
+    "name": "Cinnamon the KuneKune",
+    "category": "Mini Pigs",
+    "price": 319.99,
+    "image": "https://images.unsplash.com/photo-1605206731460-0bbdfadf9808?q=80&w=2113&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "A friendly KuneKune pig from New Zealand, known for its gentle grazing nature.",
+    "details": "Cinnamon is a KuneKune piglet, a breed famous for being grass-fed and ultra-docile. 9 weeks old. Ideal for families and small paddocks. Weight at maturity: ~100–200 lbs. Includes diet plan and vet records.",
+    "badge": null
+  },
+  {
+    "id": 8,
+    "name": "Baxter the Berkshire",
+    "category": "Farm Pigs",
+    "price": 159.99,
+    "image": "https://images.unsplash.com/photo-1652288748605-3bba47b553e1?q=80&w=1511&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "A classic black Berkshire pig, prized for premium quality meat and docile nature.",
+    "details": "Baxter is a registered Berkshire pig, 10 weeks old. This breed is renowned by chefs worldwide for its marbled, flavourful meat. He is fully vaccinated and comes with lineage documentation.",
+    "badge": null
+  }
+]
