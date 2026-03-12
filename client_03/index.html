@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Веб-тест: HTML, CSS, JavaScript</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-wrapper">
+    <header class="app-header">
+      <h1>Тест з веб-технологій</h1>
+      <div class="timer-box">
+        ⏱ <span id="timer">00:00</span>
+      </div>
+    </header>
+
+    <!-- Навігація по питаннях -->
+    <nav id="question-nav" class="question-nav" aria-label="Навігація по питаннях"></nav>
+
+    <!-- Основний блок тесту -->
+    <main id="quiz-area" class="quiz-area">
+      <div id="loading" class="loading-msg">Завантаження питань…</div>
+    </main>
+
+    <!-- Блок результатів -->
+    <section id="results-area" class="results-area hidden"></section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
